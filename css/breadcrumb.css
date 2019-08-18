@@ -1,0 +1,63 @@
+.breadcrumb-section {
+    padding: 0;
+/*    background-color: var(--main-color-hover);*/
+}
+.breadcrumb {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    position: relative;
+    background-color: transparent;
+    margin: 0;
+}
+.breadcrumb .breadcrumb-item a {
+    background: radial-gradient(circle at 0% 50%, var(--main-color-hover) 10px, var(--main-color), var(--main-color-light));
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: 100;
+    position: relative;
+}
+.breadcrumb .breadcrumb-item a:first-child:before {
+    position: absolute;
+    content: "";
+    width: 1000px;
+    height: 100%;
+    background-color: var(--main-color-hover);
+    z-index: -1;
+    top: 0;
+    right: 20px;    
+}
+.breadcrumb .breadcrumb-item a:first-child:hover:before {
+    background-color: var(--accent-color-hover);
+}
+.breadcrumb .breadcrumb-item:not(:last-child) a {
+    padding-left: 40px;
+}
+.breadcrumb .breadcrumb-item:not(:first-child) a {
+    margin-right: -25px;
+}
+.breadcrumb .breadcrumb-item a:hover {
+    text-decoration: none;
+    background: radial-gradient(circle at 0% 50%, var(--accent-color-hover) 10px, var(--accent-color), var(--accent-color-light));
+    color: #fff;
+}
+.breadcrumb-item.active a {
+    background: radial-gradient(circle at 0% 50%, var(--secondary-color-hover) 10px, var(--secondary-color), var(--secondary-color-light));
+    color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    color: #fff;
+    color: var(--main-color);
+    content: "»";
+    content: "";
+    opacity: 0.3;
+    opacity: 1;
+}

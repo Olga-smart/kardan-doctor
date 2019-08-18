@@ -1,0 +1,156 @@
+.price-justification {
+    text-align: left;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: top 7px left;
+    background-size: 40px;
+}
+.price-justification-heading {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    color: var(--secondary-color-light
+    );
+    letter-spacing: 2px;
+}
+.price-justification-text {
+    font-size: 0.9rem;
+}
+.price-justification-1 {
+    background-image: url(../img/price_icons/gift.png);
+}
+.price-justification-2 {
+    background-image: url(../img/price_icons/security.png);
+}
+.price-justification-3 {
+    background-image: url(../img/price_icons/time.png);
+}
+
+/* Price cars */
+.price-cars-item {
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: top center;
+    padding-top: 70px;
+}
+.price-cars-item-1 {
+    background-image: url(../img/price_icons/car.png);
+}
+.price-cars-item-2 {
+    background-image: url(../img/price_icons/minibus.png); 
+}
+.price-cars-item-3 {
+    background-image: url(../img/price_icons/truck.png); 
+}
+/* End Price cars */
+
+/* Price Accordion */
+.price-accordion .card-header .balance-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/balance-orange.png);
+}
+.price-accordion .card-header .balance-icon.btn-link:before, 
+.price-accordion .card-header .balance-icon.btn-link:hover:before {
+    background-image: url(../img/price_icons/balance-white.png);
+}
+
+.price-accordion .card-header .replace-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/replace-orange.png);
+}
+.price-accordion .card-header .replace-icon.btn-link:before,
+.price-accordion .card-header .replace-icon.btn-link:hover:before{
+    background-image: url(../img/price_icons/replace-white.png);
+}
+
+.price-accordion .card-header .minus-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/minus-orange.png);
+}
+.price-accordion .card-header .minus-icon.btn-link:before,
+.price-accordion .card-header .minus-icon.btn-link:hover:before {
+    background-image: url(../img/price_icons/minus-white.png);
+}
+
+.price-accordion .card-header .plus-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/plus-orange.png);
+}
+.price-accordion .card-header .plus-icon.btn-link:before, 
+.price-accordion .card-header .plus-icon.btn-link:hover:before {
+    background-image: url(../img/price_icons/plus-white.png);
+}
+
+.price-accordion .card-header .stretch-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/stretch-orange.png);
+}
+.price-accordion .card-header .stretch-icon.btn-link:before,
+.price-accordion .card-header .stretch-icon.btn-link:hover:before {
+    background-image: url(../img/price_icons/stretch-white.png);
+}
+
+.price-accordion .card-header .shorten-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/shorten-orange.png);
+}
+.price-accordion .card-header .shorten-icon.btn-link:before, 
+.price-accordion .card-header .shorten-icon.btn-link:hover:before {
+    background-image: url(../img/price_icons/shorten-white.png);
+}
+
+.price-accordion .card-header .drop-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/drop-orange.png);
+}
+.price-accordion .card-header .drop-icon.btn-link:before,
+.price-accordion .card-header .drop-icon.btn-link:hover:before{
+    background-image: url(../img/price_icons/drop-white.png);
+}
+
+.price-accordion .card-header .paint-icon.btn-link.collapsed:before {
+    background-image: url(../img/price_icons/paint-orange.png);
+}
+.price-accordion .card-header .paint-icon.btn-link:before,
+.price-accordion .card-header .paint-icon.btn-link:hover:before{
+    background-image: url(../img/price_icons/paint-white.png);
+}
+
+.price-accordion .card-body {
+    padding: 0;
+}
+.price-accordion .card-body table {
+    margin: 0;
+}
+.price-accordion .card-body table td:nth-child(2) {
+    text-align: right;
+}
+/* End Price Accordion */
+
+
+/* Media Price */
+/* Small and Extra Small */
+@media (max-width: 767px) {
+    .price-justification {
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+} 
+/* Extra Small */
+@media (max-width: 575px) {
+    .price-justification {
+        padding-left: 65px;
+        background-position: top 7px left 15px;
+    }
+    .price-page-header .btn {
+        margin-bottom: 1rem;
+    }
+    .price-cars-item {
+        background-position: left 30% top;
+        padding-top: 0;
+        padding-left: 90px;
+        padding-left: 50%;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .price-cars-item p {
+        margin-bottom: 0.2rem;
+    }
+}
+/* End Media Price */

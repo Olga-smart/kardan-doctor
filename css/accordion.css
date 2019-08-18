@@ -1,0 +1,48 @@
+/* Custom Accordion */
+.custom-accordion .btn {
+    white-space: normal;
+}
+.custom-accordion .card-header {
+    background: radial-gradient(circle at 0% 50%, var(--main-color-hover) 10px, var(--main-color), var(--main-color-light));
+    padding: 0;
+    border: none;
+}
+.custom-accordion .card-header:hover {
+    background: radial-gradient(circle at 0% 50%, var(--accent-color-hover) 10px, var(--accent-color), var(--accent-color-light));
+}
+.custom-accordion .card-header .btn-link {
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.25rem; 
+    position: relative;
+    padding-left: 55px;
+    border: none;
+    border-radius: 0;
+    background: radial-gradient(circle at 0% 50%, var(--secondary-color-hover) 10px, var(--secondary-color), var(--secondary-color-light));
+}
+.custom-accordion .card-header .btn-link.collapsed  {
+    background: radial-gradient(circle at 0% 50%, var(--main-color-hover) 10px, var(--main-color), var(--main-color-light));
+} 
+.custom-accordion .card-header .btn-link:hover {
+    background: radial-gradient(circle at 0% 50%, var(--accent-color-hover) 10px, var(--accent-color), var(--accent-color-light));
+}
+.custom-accordion .card-header .btn-link:before,
+.custom-accordion .card-header .btn-link:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+}
+.custom-accordion .card-header .btn-link:before {
+    left: 15px;
+}
+.custom-accordion .card-header .btn-link.collapsed:after {
+    background-image: url(../img/down-arrow.png);
+}
+.custom-accordion .card-header .btn-link:after {
+    right: 15px;
+    background-image: url(../img/up-arrow.png);
+}
+/* End Custom Accordion */

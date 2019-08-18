@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/breadcrumb.css">
+        <link rel="stylesheet" href="css/services.css">
+        <link rel="stylesheet" href="css/blog.css">
+        <link rel="stylesheet" href="css/price.css">
+        
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+        
+        <!-- Icon Font -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+
+        <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-title" id="exampleModalCenterTitle">Оставить заявку</div>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ваше имя...">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Телефон:</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+7 (495)">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn orange-btn">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+		<nav class="navbar navbar-expand-md navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>            
+            <a class="navbar-brand" href="index.html">
+				<img class="img-fluid" src="img/logo-white.png">
+            </a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Главная</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="services.html">Услуги</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="price.html">Цены</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html">Контакты</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link active" href="blog.html">Блог</a>
+					</li>
+				</ul>
+			</div>
+            <span class="navbar-text text-right">
+                <a href="tel:88005552967" class="contact-link">8 (800) 555-29-67</a><br>
+                <a href="tel:84955653237" class="contact-link">8 (495) 565-32-37</a><br>
+                <small class="d-none d-sm-block">без выходных, с 9:00 до 21:00</small>
+            </span>            
+		</nav>
+    
+        <section class="article-header">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h1 class="display-4">Балансировка карданного вала<h1>
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-md-4 col-lg-3 price-justification price-justification-1">
+                                <p class="price-justification-heading">Бесплатно</p>
+                                <p class="price-justification-text">проведем диагностику. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
+                            </div>                            
+                            <div class="col-md-4 col-lg-3 price-justification price-justification-3">
+                                <p class="price-justification-heading">Быстро</p>
+                                <p class="price-justification-text">Гарантируем ремонт вашего карданного вала в течение 1 рабочего дня.</p>
+                            </div>
+                            <div class="col-md-4 col-lg-3 price-justification price-justification-2">
+                                <p class="price-justification-heading">Безопасно</p>
+                                <p class="price-justification-text">Мы даем 6-месячную гарантию на запчасти и работу.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn secondary-btn mx-1" data-toggle="modal" data-target="#requestModal">Получить консультацию</button>
+                        <button type="button" class="btn orange-btn mx-1" data-toggle="modal" data-target="#requestModal">Записаться на ремонт</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="breadcrumb-section d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="service_1.html">Балансировка</a></li>
+                                    <li class="breadcrumb-item"><a href="services.html">Услуги</a></li>
+                                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                </ol>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <div class="row">                   
+                    <main class="col">
+                        <div class="row">
+                            <div class="col article">
+                                <p>Компания «КарданБаланс» оказывает комплекс услуг по изготовлению, ремонту и балансировке карданных валов. Работа ведется с автомобилями всех марок и моделей, в том числе с коммерческим транспортом и спецтехникой.</p>
+                                <p>Экономия на балансировке карданного вала влечет увеличение расходов. Ускоренное разрушение подшипниковых узлов, шлицов и крестовины, прочих элементов ходовой приводит к дорогостоящему ремонту. Процесс износа сопровождается посторонними шумами, вибрацией и ударной отдачей при переключении передачи.</p>
+                                
+                                <h2>Причины дисбаланса</h2>
+                                <ol>
+                                    <li><strong>Некачественные материалы, неправильная закалка металла.</strong> Детали, выполненные из сырья с недостаточно высокими характеристиками, не выдерживают статические и динамические нагрузки.</li>
+                                    <li><strong>Чрезмерная нагрузка.</strong> Возникает по нескольким причинам. Данный фактор постепенно, на протяжении нескольких лет приводит к дисбалансу и воздействует на машину, даже если ею не пользуются.</li>
+                                    <li><strong>Несоблюдение технологии.</strong> Даже если после работы баланс найден, неправильное закрепление детали может вызвать расшатывание.</li>
+                                    <li><strong>Некачественные крепления и детали.</strong></li>          
+                                </ol>
+                                                                
+                                <h2>Особенности процесса балансировки кардана</h2>
+                                <p>Работа требует качественного оборудования и опыта. Выполняется в несколько этапов:</p>
+                                <div class="row balancing-stages">
+                                    <div class="col-md-6 offset-md-3 balancing-stages-item">Тестирование на специальном станке, которое помогает выявить основные показатели дисбаланса.</div>
+                                    <div class="col-md-6 offset-md-3 balancing-stages-item">Закрепление груза на одном из концов детали и снятие показаний. То же повторяют с противоположной стороной/</div>
+                                    <div class="col-md-6 offset-md-3 balancing-stages-item">Для учета погрешности балансировки карданный вал поворачивают на 180° и повторяют процедуры.</div>
+                                    <div class="col-md-6 offset-md-3 balancing-stages-item">На основе полученных данных в определенные точки карданного вала привариваются грузы.</div>
+                                </div>
+                                <p>Сам процесс балансировки карданного вала длится около получаса. Столько же времени требуется для разборки и монтажа. Цена работы зависит от модели машины и срочности, рассчитывается индивидуально для каждого клиента.</p>
+                            </div>
+                        </div>                     
+                    </main>
+                    <aside class="col-lg-3 sidebar">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-12">
+                                <ul class="list-group sidebar-services">
+                                    <p class="sidebar-heading">Услуги</p>
+                                    <li class="list-group-item"><a href="#">Балансировка кардана</a></li>
+                                    <li class="list-group-item"><a href="#">Замена крестовины</a></li>
+                                    <li class="list-group-item"><a href="#">Замена подвесного подшипника</a></li>
+                                    <li class="list-group-item"><a href="#">Снятие карданного вала</a></li>
+                                    <li class="list-group-item"><a href="#">Установка кардана</a></li>
+                                    <li class="list-group-item"><a href="#">Удлинение кардана</a></li>
+                                    <li class="list-group-item"><a href="#">Укорачивание кардана</a></li>
+                                    <li class="list-group-item"><a href="#">Замена шлицевого соединения</a></li>
+                                    <li class="list-group-item"><a href="#">Замена трубы</a></li>
+                                    <li class="list-group-item"><a href="#">Замена вилки</a></li>
+                                    <li class="list-group-item"><a href="#">Смазка кардана</a></li>
+                                    <li class="list-group-item"><a href="#">Покраска кардана</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <div class="sidebar-banner sidebar-banner-1">
+                                    <p class="sidebar-banner-heading">Акция на балансировку карданов Mercedes Sprinter</p>
+                                    <p class="small">3-опорный кардан - <del>5854 руб.</del> <span class="lead">2662 руб.</span></p>
+                                    <p class="small">4-опорный кардан - <del>6829 руб.</del> <span class="lead">3328 руб.</span></p>
+                                    <button type="button" class="btn orange-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <div class="sidebar-banner sidebar-banner-2">
+                                    <p class="sidebar-banner-heading">При записи через сайт или по телефону <span class="lead">скидка 5%</span></p>
+                
+                                    <button type="button" class="btn secondary-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <ul class="list-group sidebar-news">
+                                    <p class="sidebar-heading">Новости</p>
+                                    <li class="list-group-item">
+                                        <a href="#">«КарданДоктор» открылся в Липецке!</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">«КарданДоктор» теперь и в Перми!</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Расширяем горизонты!!!</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                    
+                    </aside>
+                </div>
+            </div>
+        </section>
+                
+        <section class="benefits light-grey-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>6 причин доверить свою машину нам</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-1">
+                        <h3>Современное оборудование</h3>
+                        <p>Все оборудование имеет европейское происхождение и настройку европейскими специалистами. Мы гарантируем точность наших работ, равную 10 грамм/мм2.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-2">
+                        <h3>Ремонт от 3 часов</h3>
+                        <p>Мы гарантируем выполнение ремонта карданного вала в течении одного рабочего дня. За каждый день просрочки даем скидку 2% от общей суммы ремонта.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-3">
+                        <h3>Гарантия 6 месяцев</h3>
+                        <p>Мы даем 6-месячную гарантию на запчасти и работу, поэтому вы можете не беспокоиться, что машина сломается через неделю после ремонта.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-4">
+                        <h3>Бесплатная диагностика</h3>
+                        <p>Бесплатно выявим проблему и предложим 3 варианта решения на выбор. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-5">
+                        <h3>Комфортная зона ожидания</h3>
+                        <p>Пока мы работаем, вы можете выпить чаю, почитать журналы, посмотреть телевизор или зайти в интернет.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-6">
+                        <h3>Прозрачные условия</h3>
+                        <p>В "КарданДоктор" вы точно знаете, за что платите. Каждый шаг согласовывается с вами и заносится в "протокол ремонта".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+						<ul>
+							<li><a href="services.html">Услуги</a></li>
+							<li><a href="price.html">Цены</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="blog.html">Блог</a></li>
+						</ul>                        
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-5">
+                        <div>
+                            <button type="button" class="btn btn-sm btn-block orange-btn mb-3" data-toggle="modal" data-target="#requestModal">Записаться на ремонт</button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-block secondary-btn" data-toggle="modal" data-target="#requestModal">Заказать изготовление</button>
+                        </div>
+                    </div>
+                    <div class="col text-center text-sm-right">
+						<ul>
+                            <li><a href="tel:88005552967" class="contact-link">8 (800) 555-29-67</a></li>
+                            <li><a href="tel:84955653237" class="contact-link">8 (495) 565-32-37</a></li>
+                            <li><a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardans.ru</a></li>
+						</ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

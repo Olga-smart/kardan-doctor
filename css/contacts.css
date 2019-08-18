@@ -1,0 +1,83 @@
+/* Main Contacts */
+.contacts-heading {
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+.contacts .nav-item {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contacts .nav-item .btn {
+    white-space: normal;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    height: 46px;
+    letter-spacing: 1px;
+}
+.contacts .nav-item .btn.active:hover {
+    background-color: var(--accent-color);
+}
+.contacts .nav-item .btn.active {
+    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
+}
+.contacts .contacts-info .fas {
+    color: var(--accent-color);
+}
+.contacts .contacts-info li {
+    margin-bottom: 1.5rem;
+}
+.contacts .tel-motivator {
+    color: var(--accent-color);
+    border-bottom: 1px solid transparent;
+}
+/* End Contacts */
+
+/* Contacts Accordion */
+.contacts-accordion {
+    margin-bottom: 50px;
+}
+.contacts-accordion .card-header .place-icon.btn-link.collapsed:before {
+    background-image: url(../img/place-orange.png);
+}
+.contacts-accordion .card-header .place-icon.btn-link:before,
+.contacts-accordion .card-header .place-icon.btn-link:hover:before {
+    background-image: url(../img/place.png);
+}
+/* End Contacts Accordion */
+
+/* Media Contacts */
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+   .contacts .nav-item {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    } 
+}
+/* Small */
+@media (min-width: 576px) and (max-width: 767px) {
+    .contacts .nav-item {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    } 
+}
+/* Extra Small */
+@media (max-width: 575px) {
+    .contacts .nav-item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+}
+/* End Media Contacts */

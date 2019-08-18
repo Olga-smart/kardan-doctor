@@ -1,0 +1,109 @@
+/* Sidebar General */
+.sidebar .list-group,
+.sidebar .sidebar-banner {
+    margin-bottom: 3rem;
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 0.75rem 1.25rem;
+    color: #333;
+}
+.sidebar-heading {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: var(--main-color);
+    padding: 0.75rem 1.25rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.sidebar .list-group {
+    border: 2px solid var(--main-color);
+}
+.sidebar .list-group-item {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+/* End Sidebar General */
+
+/* Sidebar Services */
+.sidebar .sidebar-services a {
+/*    background: radial-gradient(circle at 0% 50%, var(--main-color-hover) 10px, var(--main-color), var(--main-color-light));*/
+    color: #fff;
+    color: #333;
+} 
+.sidebar .sidebar-services a:hover {
+    background: radial-gradient(circle at 0% 50%, var(--accent-color-hover) 10px, var(--accent-color), var(--accent-color-light));
+    color: #fff;
+}
+/* End Sidebar Services */
+
+/* Sidebar Banner */
+.sidebar .sidebar-banner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+}
+.sidebar .sidebar-banner-1 {
+    background-image: url(../img/banners/mercedes-sprinter.png);
+    min-height: 300px; 
+    border: 5px solid var(--accent-color);
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.sidebar .sidebar-banner-1 .sidebar-banner-heading {
+    font-weight: 700;
+    
+}
+.sidebar .sidebar-banner-1 p {
+/*    font-size: 0.8rem;*/
+}
+/* End Sidebar Banner */
+
+/* Media Sidebar Banner */
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    .sidebar .sidebar-banner-1 {
+        padding-top: 200px;
+    }
+}
+/* Small */
+@media (min-width: 576px) and (max-width: 767px) {
+    .sidebar .sidebar-banner-1 {
+        padding-top: 300px;
+    }
+}
+/* Extra Small */
+@media (max-width: 575px) {
+    .sidebar .sidebar-banner-1 {
+        padding-top: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .sidebar .sidebar-banner-1 {
+        padding-top: 250px;
+    }
+}
+/* Super Extra Small */
+@media (max-width: 400px) {
+    .sidebar .sidebar-banner-1 {
+        padding-top: 200px;
+    }
+}
+/* End Media Sidebar Banner */
+
+/* Sidebar News */
+.sidebar .sidebar-news a {
+    color: #fff;
+    color: #333;
+}
+.sidebar .sidebar-news a:hover {
+    color: var(--accent-color);
+}
+/* End Sidebar News */
+
