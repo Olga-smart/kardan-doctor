@@ -371,33 +371,16 @@ h2 {
 }
 /* End Services */
 
-/* About */
-.about table td {
-    vertical-align: middle;
-    padding-top: 0;
-	padding-bottom: 1rem;
+/* Media Repair */
+/* Extra Small */
+@media (max-width: 575px) {
+	.repair img {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
-.about .about-number {
-	text-align: right;
-	color: var(--accent-color);
-	font-weight: 700;
-    font-size: 1.7rem;
-}
-/* End About */
-
-/* Media About */
-/* Small and Extra Small */
-@media (max-width: 767px) {
-    .about table td {
-        width: 50%;  
-        padding-bottom: 0.8rem;
-    }
-    .about .about-number {
-        font-weight: 700;
-        font-size: 1.2rem;
-    }
-}
-/* End Media About */
+/* End Media Repair */
 
 /* Reviews */
 .reviews img {
@@ -446,31 +429,33 @@ h2 {
 }
 /* End Media Reviews */
 
-/* News */
-.news h3 {
-	font-size: 1.1rem;
-	font-weight: 700;
+/* About */
+.about table td {
+    vertical-align: middle;
+    padding-top: 0;
+	padding-bottom: 1rem;
+}
+.about .about-number {
+	text-align: right;
 	color: var(--accent-color);
+	font-weight: 700;
+    font-size: 1.7rem;
 }
-.news img {
-	width: 200px;
+/* End About */
+
+/* Media About */
+/* Small and Extra Small */
+@media (max-width: 767px) {
+    .about table td {
+        width: 50%;  
+        padding-bottom: 0.8rem;
+    }
+    .about .about-number {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
 }
-.news .media {
-    background-color: #fff;
-    margin-bottom: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-}
-.news .media .date {
-	font-style: italic;
-}
-.news .media p {
-	margin-bottom: 0;
-}
-.news .media-body {
-	padding: 10px;
-}
-/* End News */
+/* End Media About */
 
 /* Footer */
 .page-footer {
@@ -487,8 +472,6 @@ h2 {
 	color: var(--light-grey);
 }
 .page-footer .btn {
-/*	margin-top: 0.4rem;*/
-/*    text-transform: uppercase;*/
     white-space: normal;
 }
 /* End Footer */
