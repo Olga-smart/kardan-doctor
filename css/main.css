@@ -371,6 +371,17 @@ h2 {
 }
 /* End Services */
 
+/* Media Services */
+@media (max-width: 400px) {
+	.services .services-item {
+		background-position: top center;
+	}
+	.services .services-item p {
+		 font-size: 1rem;
+	}
+}
+/* End Media Services */
+
 /* Media Repair */
 /* Extra Small */
 @media (max-width: 575px) {
