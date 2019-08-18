@@ -24,31 +24,31 @@
 	</head>
 	<body>
 
-        <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal-title" id="exampleModalCenterTitle">Оставить заявку</div>
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Ваше имя:</label>
-                                <input type="text" class="form-control" id="name" placeholder="Ваше имя...">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Телефон:</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="+7 (495)">
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn orange-btn">Отправить</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<div class="modal-title" id="exampleModalCenterTitle">Оставить заявку</div>
+						<form>
+							<div class="form-group">
+								<label for="name">Ваше имя:</label>
+								<input type="text" class="form-control" id="name" placeholder="Ваше имя...">
+							</div>
+							<div class="form-group">
+								<label for="phone">Телефон:</label>
+								<input type="tel" class="form-control" id="phone" placeholder="+7 (495)">
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn orange-btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
         
 		<nav class="navbar navbar-expand-md navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,719 +82,548 @@
             </span>            
 		</nav>
         
-        <section class="page-header price-page-header">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h1 class="display-4">Цены</h1>  
-                        <div class="row justify-content-center">
-                            <div class="col-md-4 col-lg-3 price-justification price-justification-1">
-                                <p class="price-justification-heading">Бесплатно</p>
-                                <p class="price-justification-text">проведем диагностику. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
-                            </div>                            
-                            <div class="col-md-4 col-lg-3 price-justification price-justification-3">
-                                <p class="price-justification-heading">Быстро</p>
-                                <p class="price-justification-text">Гарантируем ремонт вашего карданного вала в течение 1 рабочего дня.</p>
-                            </div>
-                            <div class="col-md-4 col-lg-3 price-justification price-justification-2">
-                                <p class="price-justification-heading">Безопасно</p>
-                                <p class="price-justification-text">Мы даем 6-месячную гарантию на запчасти и работу.</p>
-                            </div>
-                        </div>
-                        <button type="button" class="btn secondary-btn mx-1" data-toggle="modal" data-target="#requestModal">Получить консультацию</button>
-                        <button type="button" class="btn orange-btn mx-1" data-toggle="modal" data-target="#requestModal">Записаться на ремонт</button>
-                    </div>
-                </div>    
-            </div>
-        </section>
+		<section class="page-header price-page-header">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col">
+						<h1 class="display-4">Цены</h1>  
+						<div class="row justify-content-center">
+							<div class="col-md-4 col-lg-3 price-justification price-justification-1">
+								<p class="price-justification-heading">Бесплатно</p>
+								<p class="price-justification-text">проведем диагностику. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
+							</div>                            
+							<div class="col-md-4 col-lg-3 price-justification price-justification-3">
+								<p class="price-justification-heading">Быстро</p>
+								<p class="price-justification-text">Гарантируем ремонт вашего карданного вала в течение 1 рабочего дня.</p>
+							</div>
+							<div class="col-md-4 col-lg-3 price-justification price-justification-2">
+								<p class="price-justification-heading">Безопасно</p>
+								<p class="price-justification-text">Мы даем 6-месячную гарантию на запчасти и работу.</p>
+							</div>
+						</div>
+						<button type="button" class="btn secondary-btn mx-1" data-toggle="modal" data-target="#requestModal">Получить консультацию</button>
+						<button type="button" class="btn orange-btn mx-1" data-toggle="modal" data-target="#requestModal">Записаться на ремонт</button>
+					</div>
+				</div>    
+			</div>
+		</section>
         
-        <section class="breadcrumb-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item active" aria-current="page"><a href="price.html">Цены</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                                </ol>
-                            </nav>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="breadcrumb-section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item active" aria-current="page"><a href="price.html">Цены</a></li>
+								<li class="breadcrumb-item"><a href="#">Главная</a></li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
         
-        <section class="price-cars light-grey-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>Средняя стоимость ремонта по типу автомобиля</h2>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 col-sm-4">
-                        <div class="price-cars-item price-cars-item-1">
-                            <p>Легковой</p>
-                            <p class="lead">10 000 руб</p>
-                        </div>                        
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="price-cars-item price-cars-item-2">
-                            <p>Микроавтобус</p>
-                            <p class="lead">15 000 руб</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="price-cars-item price-cars-item-3">
-                            <p>Грузовой</p>
-                            <p class="lead">20 000 руб</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="price-cars light-grey-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2>Средняя стоимость ремонта по типу автомобиля</h2>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-12 col-sm-4">
+						<div class="price-cars-item price-cars-item-1">
+							<p>Легковой</p>
+							<p class="lead">10 000 руб</p>
+						</div>                        
+					</div>
+					<div class="col-12 col-sm-4">
+						<div class="price-cars-item price-cars-item-2">
+							<p>Микроавтобус</p>
+							<p class="lead">15 000 руб</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4">
+						<div class="price-cars-item price-cars-item-3">
+							<p>Грузовой</p>
+							<p class="lead">20 000 руб</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
         
-        <section class="price-detailed">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>Подробные цены по услугам</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        
-                        <div class="accordion custom-accordion price-accordion" id="priceAccordion">
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading1">
-                                        <button class="btn btn-link btn-block text-left collapsed balance-icon" type="button" data-toggle="collapse" data-target="#priceCardBody1" aria-expanded="true" aria-controls="priceCardBody1">
-                                        Балансировка карданных валов
-                                        </button>
-                                </div>
+		<section class="price-detailed">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2>Подробные цены по услугам</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
 
-                                <div id="priceCardBody1" class="collapse" aria-labelledby="priceCardHeading1" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой 2х-опорный (без подвесного)</td>
-                                                <td>1951 руб.<span class="badge badge-pill">?</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный легковой 3х-опорный (1 подвесной)</td>
-                                                <td>2930 руб.<span class="badge badge-pill">?</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный легковой 4х опорный (2 подвесных)</td>
-                                                <td>3903 руб.<span class="badge badge-pill">?</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая 2х-опорный (без подвесного)</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая 3х-опорный (1 подвесной)</td>
-                                                <td>4879 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая 4х-опорный (2 подвесных)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус иномарка 2х опорный (без подвесного подшипника)</td>
-                                                <td>4879 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус иномарка 3х опорный (1 подвесной подшипник)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус иномарка 4х опорный (2 подвесных подшипника)</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус отечественный 2х опорный (без подвесного подшипника)</td>
-                                                <td>2930 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус отечественный 3х опорный (1 подвесной подшипник)</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Микроавтобус отечественный 4х опорный (2 подвесных подшипника)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 2х опорный (3,6 - 8 тонн) (без подвесного подшипника)</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 3х опорный (3,6 - 8 тонн) (1 подвесной подшипник)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 4х опорный (3,6 - 8 тонн) (2 подвесных подшипника)</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 2х опорный (8,1 - 12 тонн) (без подвесного подшипника)</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 3х опорный (8,1 - 12 тонн) (1 подвесной подшипник)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 4х опорный (8,1 - 12 тонн) (2 подвесных подшипника)</td>
-                                                <td>7806 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 2х опорный (12,1 - 20 тонн) (без подвесного подшипника)</td>
-                                                <td>4879 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 3х опорный (12,1 - 20 тонн) (1 подвесной подшипник)</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 4х опорный (12,1 - 20 тонн) (2 подвесных подшипника)</td>
-                                                <td>8781 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 2х опорный (20,1 - 30 тонн) (без подвесного подшипника)</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 3х опорный (20,1 - 30 тонн) (1 подвесной подшипник)</td>
-                                                <td>7806 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 4х опорный (20,1 - 30 тонн) (2 подвесных подшипника)</td>
-                                                <td>9757 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 2х опорный (30,1 - 40 тонн) (без подвесного подшипника)</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 3х опорный (30,1 - 40 тонн) (1 подвесной подшипник)</td>
-                                                <td>8782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой 4х опорный (30,1 - 40 тонн) (2 подвесных подшипника)</td>
-                                                <td>10733 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 2х опорный (3,6 - 8 тонн) (без подвесного подшипника)</td>
-                                                <td>6147 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 3х опорный (3,6 - 8 тонн) (1 подвесной подшипник)</td>
-                                                <td>8292 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 4х опорный (3,6 - 8 тонн) (2 подвесных подшипника)</td>
-                                                <td>9268 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 2х опорный (8,1 - 12 тонн) (без подвесного подшипника)</td>
-                                                <td>7513 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 3х опорный (8,1 - 12 тонн) (1 подвесной подшипник)</td>
-                                                <td>9466 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 4х опорный (8,1 - 12 тонн) (2 подвесных подшипника)</td>
-                                                <td>11222 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 2х опорный (12,1 - 20 тонн) (без подвесного подшипника)</td>
-                                                <td>8490 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 3х опорный (12,1 - 20 тонн) (1 подвесной подшипник)</td>
-                                                <td>11222 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 4х опорный (12,1 - 20 тонн) (2 подвесных подшипника)</td>
-                                                <td>13174 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 2х опорный (20,1 - 30 тонн) (без подвесного подшипника)</td>
-                                                <td>9464 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 3х опорный (20,1 - 30 тонн) (1 подвесной подшипник)</td>
-                                                <td>12586 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 4х опорный (20,1 - 30 тонн) (2 подвесных подшипника)</td>
-                                                <td>14928 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 2х опорный (30,1 - 40 тонн) (без подвесного подшипника)</td>
-                                                <td>11025 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 3х опорный (30,1 - 40 тонн) (1 подвесной подшипник)</td>
-                                                <td>14150 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовой 4х опорный (30,1 - 40 тонн) (2 подвесных подшипника)</td>
-                                                <td>16490 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading2">
-                                        <button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody2" aria-expanded="false" aria-controls="priceCardBody2">
-                                        Замена крестовины карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody2" class="collapse" aria-labelledby="priceCardHeading2" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Иномарка легковая со стопорными кольцами</td>
-                                                <td>1367 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус со стопорными кольцами</td>
-                                                <td>1758 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая со стопорными кольцами</td>
-                                                <td>от 2049 до 4196 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая замена кернением</td>
-                                                <td>1951 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус замена кернением</td>
-                                                <td>2341 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественная легковая со стопорными кольцами</td>
-                                                <td>683 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус со стопорными кольцами</td>
-                                                <td>978 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественная грузовая со стопорными кольцами</td>
-                                                <td>от 1269 - до 2244 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественная легковая замена кернением</td>
-                                                <td>1951 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус замена кернением</td>
-                                                <td>1951 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading3">
-                                        <button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody3" aria-expanded="false" aria-controls="priceCardBody3">
-                                        Замена подвесного подшипника
-                                        </button>
-                                </div>
-                                <div id="priceCardBody3" class="collapse" aria-labelledby="priceCardHeading4" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>683 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>978 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 1660 до 2635 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>1367 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>1758 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 3223 до 5173 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading3">
-                                        <button class="btn btn-link btn-block text-left collapsed minus-icon" type="button" data-toggle="collapse" data-target="#priceCardBody4" aria-expanded="false" aria-controls="priceCardBody4">
-                                        Снятие карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody4" class="collapse" aria-labelledby="priceCardHeading4" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>513 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>1099 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 1245 до 2712 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>1027 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>1833 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 2565 до 5498 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading5">
-                                        <button class="btn btn-link btn-block text-left collapsed plus-icon" type="button" data-toggle="collapse" data-target="#priceCardBody5" aria-expanded="false" aria-controls="priceCardBody5">
-                                        Установка карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody5" class="collapse" aria-labelledby="priceCardHeading5" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>513 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>1099 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 1245 до 2712 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>1027 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>1833 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 2565 до 5498 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading6">
-                                        <button class="btn btn-link btn-block text-left collapsed stretch-icon" type="button" data-toggle="collapse" data-target="#priceCardBody6" aria-expanded="false" aria-controls="priceCardBody6">
-                                        Удлинение карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody6" class="collapse" aria-labelledby="priceCardHeading6" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>4782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 5757 до 9660 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 9074 до 15377 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading7">
-                                        <button class="btn btn-link btn-block text-left collapsed shorten-icon" type="button" data-toggle="collapse" data-target="#priceCardBody7" aria-expanded="false" aria-controls="priceCardBody7">
-                                        Укорачивание карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody7" class="collapse" aria-labelledby="priceCardHeading7" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>4782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 5757 до 9660 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 9074 до 15377 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading8">
-                                        <button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody8" aria-expanded="false" aria-controls="priceCardBody8">
-                                        Замена шлицевого соединения (резка/сварка)
-                                        </button>
-                                </div>
-                                <div id="priceCardBody8" class="collapse" aria-labelledby="priceCardHeading8" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>4782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 5757 до 9660 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 9074 до 15377 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading9">
-                                        <button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody9" aria-expanded="false" aria-controls="priceCardBody9">
-                                        Замена трубы
-                                        </button>
-                                </div>
-                                <div id="priceCardBody9" class="collapse" aria-labelledby="priceCardHeading9" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>4782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 5757 до 9660 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 9074 до 15377 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading10">
-                                        <button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody10" aria-expanded="false" aria-controls="priceCardBody10">
-                                        Замена вилки
-                                        </button>
-                                </div>
-                                <div id="priceCardBody10" class="collapse" aria-labelledby="priceCardHeading10" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>3903 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный микроавтобус</td>
-                                                <td>4782 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>от 5757 до 9660 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>5854 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка микроавтобус</td>
-                                                <td>6829 руб.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>от 9074 до 15377 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading11">
-                                        <button class="btn btn-link btn-block text-left collapsed drop-icon" type="button" data-toggle="collapse" data-target="#priceCardBody11" aria-expanded="false" aria-controls="priceCardBody11">
-                                        Смазка (шприцевание) кардана
-                                        </button>
-                                </div>
-                                <div id="priceCardBody11" class="collapse" aria-labelledby="priceCardHeading11" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Смазка любого карданного вала</td>
-                                                <td>от 300 руб.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="priceCardHeading12">
-                                        <button class="btn btn-link btn-block text-left collapsed paint-icon" type="button" data-toggle="collapse" data-target="#priceCardBody12" aria-expanded="false" aria-controls="priceCardBody12">
-                                        Покраска карданного вала
-                                        </button>
-                                </div>
-                                <div id="priceCardBody12" class="collapse" aria-labelledby="priceCardHeading12" data-parent="#priceAccordion">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <tr>
-                                                <td>Отечественный легковой</td>
-                                                <td>Уточняйте у оператора</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка легковая</td>
-                                                <td>Уточняйте у оператора</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отечественный грузовой</td>
-                                                <td>Уточняйте у оператора</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Иномарка грузовая</td>
-                                                <td>Уточняйте у оператора</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
+						<div class="accordion custom-accordion price-accordion" id="priceAccordion">
+						
+							<div class="card">
+								<div class="card-header" id="priceCardHeading1">
+									<button class="btn btn-link btn-block text-left collapsed balance-icon" type="button" data-toggle="collapse" data-target="#priceCardBody1" aria-expanded="true" aria-controls="priceCardBody1">
+									Балансировка карданных валов
+									</button>
+								</div>
+
+								<div id="priceCardBody1" class="collapse" aria-labelledby="priceCardHeading1" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>2000 - 4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>4000 - 6000 руб.</td>
+											</tr>
+											<tr>
+												<td>Микроавтобус иномарка</td>
+												<td>5000 - 7000 руб.</td>
+											</tr>
+											<tr>
+												<td>Микроавтобус отечественный</td>
+												<td>3000 - 6000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>4000 - 11000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовой</td>
+												<td>8000 - 16500 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading2">
+									<button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody2" aria-expanded="false" aria-controls="priceCardBody2">
+									Замена крестовины
+									</button>
+								</div>
+								<div id="priceCardBody2" class="collapse" aria-labelledby="priceCardHeading2" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>1500 - 2000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>1800 - 2400 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>2100 - 4200 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественная легковая</td>
+												<td>700 - 2000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>1000 - 2000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественная грузовая со стопорными кольцами</td>
+												<td>1300 - 2300 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading3">
+									<button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody3" aria-expanded="false" aria-controls="priceCardBody3">
+									Замена подвесного подшипника
+									</button>
+								</div>
+								<div id="priceCardBody3" class="collapse" aria-labelledby="priceCardHeading4" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>700 руб.</td>
+</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>1000 руб.</td>
+</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>1700 - 2700 руб.</td>
+</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>1400 руб.</td>
+</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>1800 руб.</td>
+</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>3300 - 5200 руб.</td>
+</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading3">
+									<button class="btn btn-link btn-block text-left collapsed minus-icon" type="button" data-toggle="collapse" data-target="#priceCardBody4" aria-expanded="false" aria-controls="priceCardBody4">
+									Снятие карданного вала
+									</button>
+								</div>
+								<div id="priceCardBody4" class="collapse" aria-labelledby="priceCardHeading4" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>600 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>1100 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>1300 - 2800 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>1100 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>1900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>2600 - 5500 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading5">
+									<button class="btn btn-link btn-block text-left collapsed plus-icon" type="button" data-toggle="collapse" data-target="#priceCardBody5" aria-expanded="false" aria-controls="priceCardBody5">
+									Установка карданного вала
+									</button>
+								</div>
+								<div id="priceCardBody5" class="collapse" aria-labelledby="priceCardHeading5" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>600 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>1100 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>1300 - 2800 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>1100 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>1900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>2600 - 5500 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading6">
+									<button class="btn btn-link btn-block text-left collapsed stretch-icon" type="button" data-toggle="collapse" data-target="#priceCardBody6" aria-expanded="false" aria-controls="priceCardBody6">
+									Удлинение карданного вала
+									</button>
+								</div>
+								<div id="priceCardBody6" class="collapse" aria-labelledby="priceCardHeading6" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>4800 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>5800 - 10000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>5900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>6900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>10000 - 16000 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading7">
+									<button class="btn btn-link btn-block text-left collapsed shorten-icon" type="button" data-toggle="collapse" data-target="#priceCardBody7" aria-expanded="false" aria-controls="priceCardBody7">
+									Укорачивание карданного вала
+									</button>
+								</div>
+								<div id="priceCardBody7" class="collapse" aria-labelledby="priceCardHeading7" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>4800 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>5800 - 10000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>5900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>6900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>10000 - 16000 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading8">
+									<button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody8" aria-expanded="false" aria-controls="priceCardBody8">
+									Замена шлицевого соединения
+									</button>
+								</div>
+								<div id="priceCardBody8" class="collapse" aria-labelledby="priceCardHeading8" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>4800 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>5800 - 10000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>5900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>6900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>10000 - 16000 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading9">
+									<button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody9" aria-expanded="false" aria-controls="priceCardBody9">
+									Замена трубы
+									</button>
+								</div>
+								<div id="priceCardBody9" class="collapse" aria-labelledby="priceCardHeading9" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>4800 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>5800 - 10000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>5900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>6900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>10000 - 16000 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading10">
+									<button class="btn btn-link btn-block text-left collapsed replace-icon" type="button" data-toggle="collapse" data-target="#priceCardBody10" aria-expanded="false" aria-controls="priceCardBody10">
+									Замена вилки
+									</button>
+								</div>
+								<div id="priceCardBody10" class="collapse" aria-labelledby="priceCardHeading10" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Отечественный легковой</td>
+												<td>4000 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный микроавтобус</td>
+												<td>4800 руб.</td>
+											</tr>
+											<tr>
+												<td>Отечественный грузовой</td>
+												<td>5800 - 10000 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка легковая</td>
+												<td>5900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка микроавтобус</td>
+												<td>6900 руб.</td>
+											</tr>
+											<tr>
+												<td>Иномарка грузовая</td>
+												<td>10000 - 16000 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading11">
+									<button class="btn btn-link btn-block text-left collapsed drop-icon" type="button" data-toggle="collapse" data-target="#priceCardBody11" aria-expanded="false" aria-controls="priceCardBody11">
+									Смазка (шприцевание) кардана
+									</button>
+								</div>
+								<div id="priceCardBody11" class="collapse" aria-labelledby="priceCardHeading11" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Смазка любого карданного вала</td>
+												<td>от 350 руб.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+							<div class="card">
+								<div class="card-header" id="priceCardHeading12">
+									<button class="btn btn-link btn-block text-left collapsed paint-icon" type="button" data-toggle="collapse" data-target="#priceCardBody12" aria-expanded="false" aria-controls="priceCardBody12">
+									Покраска карданного вала
+									</button>
+								</div>
+								<div id="priceCardBody12" class="collapse" aria-labelledby="priceCardHeading12" data-parent="#priceAccordion">
+									<div class="card-body">
+										<table class="table table-striped">
+											<tr>
+												<td>Покраская любого карданного вала</td>
+												<td>Уточняйте у оператора</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
 		
-        <section class="benefits light-grey-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>6 причин доверить свою машину нам</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-1">
-                        <h3>Современное оборудование</h3>
-                        <p>Все оборудование имеет европейское происхождение и настройку европейскими специалистами. Мы гарантируем точность наших работ, равную 10 грамм/мм2.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-2">
-                        <h3>Ремонт от 3 часов</h3>
-                        <p>Мы гарантируем выполнение ремонта карданного вала в течении одного рабочего дня. За каждый день просрочки даем скидку 2% от общей суммы ремонта.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-3">
-                        <h3>Гарантия 6 месяцев</h3>
-                        <p>Мы даем 6-месячную гарантию на запчасти и работу, поэтому вы можете не беспокоиться, что машина сломается через неделю после ремонта.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-4">
-                        <h3>Бесплатная диагностика</h3>
-                        <p>Бесплатно выявим проблему и предложим 3 варианта решения на выбор. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-5">
-                        <h3>Комфортная зона ожидания</h3>
-                        <p>Пока мы работаем, вы можете выпить чаю, почитать журналы, посмотреть телевизор или зайти в интернет.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 benefits-item benefits-item-6">
-                        <h3>Прозрачные условия</h3>
-                        <p>В "КарданДоктор" вы точно знаете, за что платите. Каждый шаг согласовывается с вами и заносится в "протокол ремонта".</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="benefits light-grey-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2>6 причин доверить свою машину нам</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-1">
+						<h3>Современное оборудование</h3>
+						<p>Все оборудование имеет европейское происхождение и настройку европейскими специалистами. Мы гарантируем точность наших работ, равную 10 грамм/мм2.</p>
+					</div>
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-2">
+						<h3>Ремонт от 3 часов</h3>
+						<p>Мы гарантируем выполнение ремонта карданного вала в течении одного рабочего дня. За каждый день просрочки даем скидку 2% от общей суммы ремонта.</p>
+					</div>
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-3">
+						<h3>Гарантия 6 месяцев</h3>
+						<p>Мы даем 6-месячную гарантию на запчасти и работу, поэтому вы можете не беспокоиться, что машина сломается через неделю после ремонта.</p>
+					</div>
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-4">
+						<h3>Бесплатная диагностика</h3>
+						<p>Бесплатно выявим проблему и предложим 3 варианта решения на выбор. Обычная стоимость этой услуги в Москве - 2 500 рублей.</p>
+					</div>
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-5">
+						<h3>Комфортная зона ожидания</h3>
+						<p>Пока мы работаем, вы можете выпить чаю, почитать журналы, посмотреть телевизор или зайти в интернет.</p>
+					</div>
+					<div class="col-md-6 col-lg-4 benefits-item benefits-item-6">
+						<h3>Прозрачные условия</h3>
+						<p>В "КарданДоктор" вы точно знаете, за что платите. Каждый шаг согласовывается с вами и заносится в "протокол ремонта".</p>
+					</div>
+				</div>
+			</div>
+		</section>
         
 		<footer class="page-footer">
 			<div class="container">
