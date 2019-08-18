@@ -447,7 +447,6 @@ h2 {
 /* Small and Extra Small */
 @media (max-width: 767px) {
     .about table td {
-        width: 50%;  
         padding-bottom: 0.8rem;
     }
     .about .about-number {
