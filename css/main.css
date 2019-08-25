@@ -284,27 +284,21 @@ h2 {
     background-size: 70px;
 }
 .benefits .benefits-item-1 {
-   background-image: url(../img/benefits_icons/benefit-1.svg);
     background-image: url(../img/benefits_icons/benefit-1-blue-orange.png);
 }
 .benefits .benefits-item-2 {
-   background-image: url(../img/benefit-2.svg);
     background-image: url(../img/benefits_icons/benefit-2-blue-orange.png);
 }
-.benefits .benefits-item-3 {
-    background-image: url(../img/benefit-3.svg); 
+.benefits .benefits-item-3 { 
     background-image: url(../img/benefits_icons/benefit-3-blue-orange.png);
 }
 .benefits .benefits-item-4 {
-   background-image: url(../img/benefit-4.svg);
     background-image: url(../img/benefits_icons/benefit-4-blue-orange.png);
 }
 .benefits .benefits-item-5 {
-   background-image: url(../img/benefit-5.svg);
     background-image: url(../img/benefits_icons/benefit-5-blue-orange.png);
 }
 .benefits .benefits-item-6 {
-    background-image: url(../img/benefit-6.svg);
     background-image: url(../img/benefits_icons/benefit-6-blue-orange.png);
 }
 /* End Benefits */
