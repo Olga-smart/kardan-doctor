@@ -1,6 +1,10 @@
 .services-item {
     position: relative;
 }
+.services-item h2 a {
+	text-decoration: none;
+	color: #fff;
+}
 .services-item .btn-group {
     width: 100%;
     position: absolute;
