@@ -122,14 +122,13 @@
 /* Media Article */
 /* Small and Extra Small */
 @media (max-width: 767px) {
-    .article-header img {
-        border-width: 3px;
-    }
     .article-header {
         text-align: center;
     }
+	.article-header h1 {
+		font-size: 2rem;
+	}
     .article-header img {
-        border: none;
         margin-bottom: 2rem;
     }
     .article-header .col-12,
