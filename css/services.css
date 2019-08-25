@@ -56,7 +56,16 @@
     background-image: url(../img/services/service_12.jpg);
 }
 
+/* Media Services */
+@media (max-width: 400px) {
+	.services-item h2 {
+		font-size: 1.5rem;
+	}
+}
+/* End Media Services */
+
 /* Balancing */
+/* Not used now */
 .balancing-stages {
     counter-reset: section;
     margin-top: 2rem;

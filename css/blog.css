@@ -12,9 +12,6 @@
 .blog-item:hover {
     text-decoration: none;
 }
-.blog-item-news {
-    background-image: url(../img/blog/news-dark.jpg);
-}
 .blog-item-posts {
     background-image: url(../img/blog/posts-dark.jpg);
 }
