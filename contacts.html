@@ -25,31 +25,31 @@
 	</head>
 	<body>
 
-        <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal-title" id="exampleModalCenterTitle">Оставить заявку</div>
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Ваше имя:</label>
-                                <input type="text" class="form-control" id="name" placeholder="Ваше имя...">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Телефон:</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="+7 (495)">
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn orange-btn">Отправить</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<div class="modal-title" id="exampleModalCenterTitle">Оставить заявку</div>
+						<form>
+							<div class="form-group">
+								<label for="name">Ваше имя:</label>
+								<input type="text" class="form-control" id="name" placeholder="Ваше имя...">
+							</div>
+							<div class="form-group">
+								<label for="phone">Телефон:</label>
+								<input type="tel" class="form-control" id="phone" placeholder="+7 (495)">
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn orange-btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
         
 		<nav class="navbar navbar-expand-md navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,725 +83,96 @@
             </span>            
 		</nav>
                 
-        <section class="page-header contacts-page-header">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h1 class="display-4">Контакты</h1>  
-                    </div>
-                </div>    
-            </div>
-        </section>
+		<section class="page-header contacts-page-header">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col">
+						<h1 class="display-4">Контакты</h1>  
+					</div>
+				</div>    
+			</div>
+		</section>
         
-        <section class="breadcrumb-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item active" aria-current="page"><a href="contacts.html">Контакты</a></li>
-                                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-                                </ol>
-                            </nav>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="breadcrumb-section d-none d-md-block">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item active" aria-current="page"><a href="contacts.html">Контакты</a></li>
+								<li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
         
-        <section class="main-section">
-            <div class="container">
-                <div class="row">                   
-                    <main class="col contacts">
-                        <div class="accordion custom-accordion contacts-accordion" id="contactsAccordion">
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading1">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody1" aria-expanded="true" aria-controls="contactsCardBody1">Москва (Старокалужское шоссе)
-                                        </button>
-                                </div>
+		<section class="main-section">
+			<div class="container">
+				<div class="row">                   
+					<main class="col contacts">
+						<div class="row">
+							<div class="col-md-6 d-none d-md-block">
+								<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0ffd528667c180632295e4a4ada244355cc24b6fdfc8f1fbd249ea0565625f7&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+							</div>
+							<div class="col-md-6">
+								<ul class="contacts-info fa-ul">
+									<li>
+										<span class="fa-li">
+											<i class="fas fa-map-marker-alt fa-fw"></i>
+										</span>
+										г. Екатеринбург, ул. Краснодарская, д.13
+										<small class="d-md-none">
+											<a href="https://yandex.ru/maps/?um=constructor%3Aa0ffd528667c180632295e4a4ada244355cc24b6fdfc8f1fbd249ea0565625f7&source=constructorLink" target="_blank"><br>Смотреть на карте</a>
+										</small>
+									</li>
+									<li>
+										<span class="fa-li">
+											<i class="fas fa-phone fa-fw"></i>
+										</span>
+										<a href="tel:83430000000" class="contact-link">+7(343)000-00-00</a>
+										<small class="tel-motivator">(Сегодня день скидок. Звони!)</small>
+									</li>
+									<li>
+										<span class="fa-li">
+											<i class="fas fa-clock fa-fw"></i>
+										</span>
+										с 9:00 до 21:00 <small>(без выходных)</small>
+									</li>
+									<li>
+										<span class="fa-li">
+											<i class="fas fa-envelope fa-fw"></i>
+										</span>
+										<a href="mailto:info@kardan-doctor.ru" class="contact-link">info@kardan-doctor.ru</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</main>
 
-                                <div id="contactsCardBody1" class="collapse" aria-labelledby="contactsCardHeading1" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A21f743d9b3b801dbd2d6420d22ed5694d246e3a53c66eaf1247725b78a10bfbf&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор на Калужской</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        117630, Россия, Москва, Старокалужское ш., д 64
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A21f743d9b3b801dbd2d6420d22ed5694d246e3a53c66eaf1247725b78a10bfbf&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84955653237" class="contact-link">+7(495)565-32-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading2">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody2" aria-expanded="true" aria-controls="contactsCardBody2">Москва (Ореховый б-р)
-                                        </button>
-                                </div>
+					<aside class="col-lg-3 sidebar">
+						<div class="row">
+							<div class="col-md-6 col-lg-12">
+								<div class="sidebar-banner sidebar-banner-1">
+									<p class="sidebar-banner-heading">Акция на балансировку карданов Mercedes Sprinter</p>
+									<p class="small">3-опорный кардан - <del>5854 руб.</del> <span class="lead">2662 руб.</span></p>
+									<p class="small">4-опорный кардан - <del>6829 руб.</del> <span class="lead">3328 руб.</span></p>
+									<button type="button" class="btn orange-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-12">
+								<div class="sidebar-banner sidebar-banner-2">
+									<p class="sidebar-banner-heading">При записи через сайт или по телефону <span class="lead">скидка 5%</span></p>
 
-                                <div id="contactsCardBody2" class="collapse" aria-labelledby="contactsCardHeading2" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af7cab541d4d3f5fcefd50bc64e40ff5792b9ec8642089156741ba8459afaced9&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор на Ореховом бульваре</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        115583, Россия, Москва, Ореховый бульвар, вл30
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3Af7cab541d4d3f5fcefd50bc64e40ff5792b9ec8642089156741ba8459afaced9&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84955653237" class="contact-link">+7(495)565-32-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 19:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading3">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody3" aria-expanded="true" aria-controls="contactsCardBody3">Москва (Лихоборская наб.)
-                                        </button>
-                                </div>
-
-                                <div id="contactsCardBody3" class="collapse" aria-labelledby="contactsCardHeading3" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A04ee09e5584a7b3568ea13bdc74c16cc669c975dc638fa72097947ff5b192c46&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор на Лихоборской набережной</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        Москва, Лихоборская набережная, 13с5
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A04ee09e5584a7b3568ea13bdc74c16cc669c975dc638fa72097947ff5b192c46&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84955653237" class="contact-link">+7(495)565-32-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 19:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading4">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody4" aria-expanded="true" aria-controls="contactsCardBody4">Тула</button>
-                                </div>
-
-                                <div id="contactsCardBody4" class="collapse" aria-labelledby="contactsCardHeading4" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae18eaa1bae11735207049e7e53de35a2ffc2f16e505563129fd60905038a6571&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Туле</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г.Тула, ул. Октябрьская, 314
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3Ae18eaa1bae11735207049e7e53de35a2ffc2f16e505563129fd60905038a6571&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84872740212" class="contact-link">+7(4872)74-02-12</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading5">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody5" aria-expanded="true" aria-controls="contactsCardBody5">Воронеж</button>
-                                </div>
-
-                                <div id="contactsCardBody5" class="collapse" aria-labelledby="contactsCardHeading5" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac6e33a7800b15db0692fc0b750a5d058de027ddab5ab3e1e89c31ab533d33459&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Воронеже</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г. Воронеж, ул. Остужева, д. 47
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3Ac6e33a7800b15db0692fc0b750a5d058de027ddab5ab3e1e89c31ab533d33459&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84733003237" class="contact-link">+7(4733)00-32-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading6">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody6" aria-expanded="true" aria-controls="contactsCardBody6">Белгород</button>
-                                </div>
-
-                                <div id="contactsCardBody6" class="collapse" aria-labelledby="contactsCardHeading6" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a6c09b4af1c47731cdf8ac512a46ca9619d7795d2f794b17216885d478aff6f&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Белгороде</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г.Белгород, ул. Константина Заслонова, 181
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A0a6c09b4af1c47731cdf8ac512a46ca9619d7795d2f794b17216885d478aff6f&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:84722402136" class="contact-link">+7(4722)40-21-36</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading7">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody7" aria-expanded="true" aria-controls="contactsCardBody7">Липецк</button>
-                                </div>
-
-                                <div id="contactsCardBody7" class="collapse" aria-labelledby="contactsCardHeading7" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5df748ff5b322d432e594a6e99e16d9b726fe6ec5906c053bc2738aa5063690c&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Липецке</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г.Липецк, ул.Фадеева, 9
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A5df748ff5b322d432e594a6e99e16d9b726fe6ec5906c053bc2738aa5063690c&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:88005555037" class="contact-link">8-800-555-50-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading8">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody8" aria-expanded="true" aria-controls="contactsCardBody8">Казань</button>
-                                </div>
-
-                                <div id="contactsCardBody8" class="collapse" aria-labelledby="contactsCardHeading8" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9fe3ae78907e24b712fb052148dee81fc2eec52f0817e21b7563c66d8281556c&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Казани</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г. Казань, ул. Лесозаводская д.6
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A9fe3ae78907e24b712fb052148dee81fc2eec52f0817e21b7563c66d8281556c&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:88432022137" class="contact-link">+7(843)202-21-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading9">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody9" aria-expanded="true" aria-controls="contactsCardBody9">Екатеринбург</button>
-                                </div>
-
-                                <div id="contactsCardBody9" class="collapse" aria-labelledby="contactsCardHeading9" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0ffd528667c180632295e4a4ada244355cc24b6fdfc8f1fbd249ea0565625f7&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Екатеринбурге</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г. Екатеринбург, ул. Краснодарская, д.15
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3Aa0ffd528667c180632295e4a4ada244355cc24b6fdfc8f1fbd249ea0565625f7&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83432887837" class="contact-link">+7(343)288-78-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading10">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody10" aria-expanded="true" aria-controls="contactsCardBody10">Пермь</button>
-                                </div>
-
-                                <div id="contactsCardBody10" class="collapse" aria-labelledby="contactsCardHeading10" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6c20f6a3fd8c7eb6ae2c9b5b08e047f9c4826b6f26c76d606522c6eca6eea2d4&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Перми</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г. Пермь, ул. Докучаева, д.31А
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A6c20f6a3fd8c7eb6ae2c9b5b08e047f9c4826b6f26c76d606522c6eca6eea2d4&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83422540437" class="contact-link">+7 (342) 254-04-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading11">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody11" aria-expanded="true" aria-controls="contactsCardBody11">Челябинск</button>
-                                </div>
-
-                                <div id="contactsCardBody11" class="collapse" aria-labelledby="contactsCardHeading11" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A775061e2e5d2d714d0a75806fb064806314af252765fa15c03061af138261602&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Челябинске</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г.Челябинск, Копейское шоссе, 48 корпус 4
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A775061e2e5d2d714d0a75806fb064806314af252765fa15c03061af138261602&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83512420702" class="contact-link">+7(351)242-07-02</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                                        
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading12">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody12" aria-expanded="true" aria-controls="contactsCardBody12">Новосибирск</button>
-                                </div>
-
-                                <div id="contactsCardBody12" class="collapse" aria-labelledby="contactsCardHeading12" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac788a6cec891f7eb22400462e08005fc43a42bd5aa2f4fffda45cdcbbcfa58d5&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Новосибирске</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г. Новосибирск, ул.Станционная, 38, литера А, корп.4
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3Ac788a6cec891f7eb22400462e08005fc43a42bd5aa2f4fffda45cdcbbcfa58d5&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83833832237" class="contact-link">+7(383)383-22-37</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading13">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody13" aria-expanded="true" aria-controls="contactsCardBody13">Тюмень</button>
-                                </div>
-
-                                <div id="contactsCardBody13" class="collapse" aria-labelledby="contactsCardHeading13" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7d43264b717bbae8e64589e1c639783d30072866e8ead5f757ffbc14b707b68f&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Тюмени</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        г.Тюмень, ул. Молодежная 12/1
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A7d43264b717bbae8e64589e1c639783d30072866e8ead5f757ffbc14b707b68f&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83452579108" class="contact-link">+7(345)257-91-08</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card">
-                                <div class="card-header" id="contactsCardHeading14">
-                                        <button class="btn btn-link btn-block text-left collapsed place-icon" type="button" data-toggle="collapse" data-target="#contactsCardBody14" aria-expanded="true" aria-controls="contactsCardBody14">Сургут</button>
-                                </div>
-
-                                <div id="contactsCardBody14" class="collapse" aria-labelledby="contactsCardHeading14" data-parent="#contactsAccordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 d-none d-md-block">
-                                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A84d9a55e0e7263ccd1fb9293605208e82c22dcfa1ea478476ddc1b7ac995c82a&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="contacts-heading">КарданДоктор в Сургуте</p>
-                                                <ul class="contacts-info fa-ul">
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                                                        </span>
-                                                        Сургут, Индустриальная улица, 38
-                                                        <small class="d-md-none"><a href="https://yandex.ru/maps/?um=constructor%3A84d9a55e0e7263ccd1fb9293605208e82c22dcfa1ea478476ddc1b7ac995c82a&source=constructorLink" target="_blank"><br>Смотреть на карте</a></small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-phone fa-fw"></i>
-                                                        </span>
-                                                        <a href="tel:83462779519" class="contact-link">+7(3462)77-95-19</a>
-                                                        <small class="tel-motivator"><span>(Сегодня день скидок. Звони!)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-clock fa-fw"></i>
-                                                        </span>
-                                                        с 9:00 до 21:00 <small>(без выходных)</small>
-                                                    </li>
-                                                    <li>
-                                                        <span class="fa-li">
-                                                            <i class="fas fa-envelope fa-fw"></i>
-                                                        </span>
-                                                        <a href="mailto:info@kardanbalans.ru" class="contact-link">info@kardanbalans.ru</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </main>
-                    
-                    <aside class="col-lg-3 sidebar">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-12">
-                                <div class="sidebar-banner sidebar-banner-1">
-                                    <p class="sidebar-banner-heading">Акция на балансировку карданов Mercedes Sprinter</p>
-                                    <p class="small">3-опорный кардан - <del>5854 руб.</del> <span class="lead">2662 руб.</span></p>
-                                    <p class="small">4-опорный кардан - <del>6829 руб.</del> <span class="lead">3328 руб.</span></p>
-                                    <button type="button" class="btn orange-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-6 col-lg-12">
-                                <div class="sidebar-banner sidebar-banner-2">
-                                    <p class="sidebar-banner-heading">При записи через сайт или по телефону <span class="lead">скидка 5%</span></p>
-                
-                                    <button type="button" class="btn secondary-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
-                                </div>
-                            </div>
-                            
-                        </div>                    
-                    </aside>
-                </div>
-            </div>
-        </section>
+									<button type="button" class="btn secondary-btn" data-toggle="modal" data-target="#requestModal">Записаться</button>
+								</div>
+							</div>
+						</div>                    
+					</aside>
+				</div>
+			</div>
+		</section>
                 
 		<footer class="page-footer">
 			<div class="container">
